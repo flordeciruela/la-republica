@@ -1,0 +1,183 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body {
+	background-color: #EBEBEB;
+}
+/*header*/
+header {
+	background-color: #e00109;
+	height: 72px;
+}
+
+.content-center {
+	width: 900px;
+	padding: 20px 0;
+	margin: auto;
+}
+
+#logo {
+	float: left;
+}
+
+#search {
+	float: right;
+}
+/*menú navegación*/
+
+nav {
+	background-color: rgba(92, 92, 102, 0.8);
+	position: absolute;
+	width: 100%;
+	z-index: 1000;
+	left: 0;
+	top: 72px;
+}
+
+nav li {
+	display: inline-block;
+	list-style: none;
+}
+
+nav a {
+		color: #fff;
+		font-size: 12px;
+		text-decoration: none;
+		padding-left: 15px;
+}
+
+.nav-center {
+	background-color: #5c5c66;
+	width: 900px;
+	padding: 10px 20px;
+	box-sizing: border-box;
+	margin: auto;
+}
+/*cuerpo*/
+.content-body {
+	margin: auto;
+	width: 900px;
+	padding: 43px 5px;
+	background-color: #fff;
+	box-sizing: border-box;
+	position: relative;
+	overflow: auto;
+}
+/*columna izquierda noticias*/
+article {
+	float: left;
+	width: 558px;
+	margin: 10px;
+	box-sizing: border-box;
+}
+
+article .new {
+	background-color: green;
+	color: #fff;
+	width: 100%;
+	overflow: auto;
+}
+
+article .left {
+	float: left;
+	width: 271px;
+	margin-top: 8px;
+	margin-right: 8px;
+}
+
+
+
+article .right {
+	float: left;
+	width: 271px;
+	margin-top: 8px;
+	margin-left: 8px;
+}
+
+#new-up {
+	height: 220px;
+}
+
+#new-up .text {
+	float: left;
+	background-color: #333340;
+	width: 11.51em;
+	height: 100%;
+	padding: 15px 35px 10px 10px;
+	box-sizing: border-box;
+}
+
+#new-up .img {
+	background-color: red;
+	display: inline-block;
+	width: 67%;
+	height: 100%;
+}
+
+.img-column {
+	height: 110px;
+	background-color: red;
+}
+
+.text-column {
+	height: 90px;
+	background-color: #333340;
+}
+
+article p {
+	font-size: 19px;
+	font-weight: 500;
+}
+
+article .text-column {
+	padding: 10px;
+}
+/*columna derecha noticias*/
+aside {
+	color: #fff;
+	float: right;
+	width: 295px;
+	margin: 10px 10px 10px 5px;
+}
+
+.box-1 {
+	height: 80px;
+	background-color: orange;
+}
+
+.box-2 {
+	height: 132px;
+	margin-top: 8px;
+	background-color: orange;
+}
+
+.aside-text {
+	float: left;
+	background-color: blue;
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.aside-img {
+	background-color: red;
+	display: inline-block;
+	width: 50%;
+	height: 100%;
+}
+
+
+.box-3 {
+	height: 132px;
+	margin-top: 8px;
+	background-color: orange;
+}
+
+.box-4 {
+	height: 80px;
+	margin-top: 8px;
+	background-color: orange;
+}
